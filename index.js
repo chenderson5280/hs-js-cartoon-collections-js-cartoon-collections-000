@@ -18,7 +18,7 @@ function longPlaneteerCalls(words) {
       return true
     }
   }
-  else {
+   {
     return false
   }
 }
