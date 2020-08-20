@@ -35,10 +35,10 @@ function findTheCheese (foods) {
 }
 
 
-// let word = 
+// let word =
 function wordsWithB (words){
   let goodWords = []
-  
+
   for(let i = 0; i < words.length; i++){
     if (words[i].startsWith('b')){
        goodWords.push(words[i])
