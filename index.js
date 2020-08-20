@@ -13,8 +13,10 @@ function summonCaptainPlanet(planeteerCalls){
   return summonCall
 }
 function longPlaneteerCalls(words) {
-  if (words.length > 4){
-    return true
+  for(let i = 0; i<words.length; i++){
+    if (words.index > 4){
+      return true
+    }
   }
   else {
     return false
@@ -28,7 +30,6 @@ function findTheCheese (foods) {
       return cheese[x]
     }
     }
-
   }
   return  "no cheese!"
 }
