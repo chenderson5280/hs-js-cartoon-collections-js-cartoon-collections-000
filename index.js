@@ -14,7 +14,7 @@ function summonCaptainPlanet(planeteerCalls){
 }
 function longPlaneteerCalls(words) {
   for(let i = 0; i<words.length; i++){
-    if (words[i].join > 4){
+    if (words[i] > 4){
       return true
     }
   }
@@ -32,4 +32,17 @@ function findTheCheese (foods) {
     }
   }
   return  "no cheese!"
+}
+
+
+// let word = 
+function wordsWithB (words){
+  let goodWords = []
+  
+  for(let i = 0; i < words.length; i++){
+    if (words[i].startsWith('b')){
+       goodWords.push(words[i])
+    }
+  }
+  return goodWords
 }
